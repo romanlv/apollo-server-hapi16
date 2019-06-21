@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "es2016",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "removeComments": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2017", "esnext.asynciterable"],
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "*" : ["types/*"]
+    },
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/__tests__", "**/__mocks__", "**/node_modules"],
+}

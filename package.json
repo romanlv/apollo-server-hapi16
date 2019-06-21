@@ -1,0 +1,60 @@
+{
+  "name": "apollo-server-hapi16",
+  "version": "0.0.1",
+  "description": "Production-ready Node.js GraphQL server for Hapi v16",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romanlv/apollo-server-hapi16"
+  },
+  "scripts": {
+    "compile": "tsc --build tsconfig.json",
+    "compile:clean": "tsc --build tsconfig.json --clean",
+    "watch": "tsc --build tsconfig.json --watch",
+    "lint": "prettier-check '**/*.{js,ts}'",
+    "lint-fix": "prettier '**/*.{js,ts}' --write",
+    "test": "jest --verbose",
+    "test:clean": "jest --clearCache",
+    "test:watch": "jest --verbose --watchAll",
+    "testonly": "npm test"
+  },
+  "keywords": [
+    "GraphQL",
+    "Apollo",
+    "Hapi",
+    "Server",
+    "Javascript"
+  ],
+  "author": "Jonas Helfer <jonas@helfer.email>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romanlv/apollo-server-hapi16/issues"
+  },
+  "homepage": "https://github.com/romanlv/apollo-server-hapi16#readme",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "@apollographql/graphql-playground-html": "1.6.20",
+    "accept": "^3.0.2",
+    "apollo-server-core": "^2.6.3",
+    "boom": "^7.1.0",
+    "graphql-subscriptions": "^1.0.0",
+    "graphql": "14.3.1",
+    "graphql-tools": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/graphql": "14.2.1",
+    "@types/hapi": "16.x.x",
+    "@types/jest": "24.0.15",
+    "@types/node": "8.10.49",
+    "tslint": "5.17.0",
+    "typescript": "3.4.5",
+    "prettier": "1.17.1",
+    "prettier-check": "2.0.0"
+  },
+  "peerDependencies": {
+    "graphql": "^0.12.0 || ^0.13.0 || ^14.0.0"
+  }
+}
