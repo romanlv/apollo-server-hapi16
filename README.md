@@ -3,7 +3,7 @@ title: Hapi
 description: Setting up Apollo Server with Hapi16
 ---
 
-Offical repo only supports Hapi v16 with Appolo v1.x, this package uses newer Apollo (2.6.3) with hapi@16
+Offical repo [only supports Hapi v16 with Appolo v1](https://www.apollographql.com/docs/apollo-server/v1/servers/hapi/#hapi-16), this package uses newer Apollo (2.6.3) with hapi@16
 
 This is the Hapi integration of Apollo Server. Apollo Server is a community-maintained open-source Apollo Server that works with many Node.js HTTP server frameworks. [Read the docs](https://www.apollographql.com/docs/apollo-server/). [Read the CHANGELOG.](https://github.com/apollographql/apollo-server/blob/master/CHANGELOG.md)
 
