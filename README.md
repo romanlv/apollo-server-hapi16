@@ -7,8 +7,10 @@ Offical repo [only supports Hapi v16 with Appolo v1](https://www.apollographql.c
 
 This is the Hapi integration of Apollo Server. Apollo Server is a community-maintained open-source Apollo Server that works with many Node.js HTTP server frameworks. [Read the docs](https://www.apollographql.com/docs/apollo-server/). [Read the CHANGELOG.](https://github.com/apollographql/apollo-server/blob/master/CHANGELOG.md)
 
+**Note**: due to issues with spam detection in npm, the packakge is published under name `other-apollo-server-hapi16`
+
 ```shell
-npm install apollo-server-hapi16
+npm install other-apollo-server-hapi16
 ```
 
 ## Usage
@@ -16,7 +18,7 @@ npm install apollo-server-hapi16
 The code below works with Hapi 16.
 
 ```js
-const { ApolloServer, gql } = require('apollo-server-hapi16');
+const { ApolloServer, gql } = require('other-apollo-server-hapi16');
 const Hapi = require('hapi');
 
 async function StartServer() {

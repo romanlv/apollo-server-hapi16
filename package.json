@@ -1,7 +1,7 @@
 {
-  "name": "apollo-server-hapi16",
+  "name": "other-apollo-server-hapi16",
   "version": "0.0.1",
-  "description": "Production-ready Node.js GraphQL server for Hapi v16",
+  "description": "Node.js GraphQL server for Hapi v16",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
@@ -26,7 +26,6 @@
     "Server",
     "Javascript"
   ],
-  "author": "Jonas Helfer <jonas@helfer.email>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/romanlv/apollo-server-hapi16/issues"
